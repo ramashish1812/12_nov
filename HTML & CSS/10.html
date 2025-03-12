@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    #img {
+        text-align: center;
+    }
+
+    img {
+        background: none;
+        height: 330px;
+        filter: drop-shadow(0px 5px 10px rgb(136, 138, 136));
+        cursor: pointer;
+    }
+
+    img:hover {
+        filter: drop-shadow(0px 0px 10px brown);
+        transform: scale(1.05);
+        transition: 1s ease;
+    }
+
+    p {
+        color: aliceblue;
+        /* text-align: justify; */
+        padding: 40px;
+        text-shadow: 5px 8px 10px rgb(252, 252, 1);
+        line-height: 30px;
+        margin-top: -40px;
+        cursor: pointer;
+    }
+
+    p:hover {
+        text-shadow: 5px 8px 10px rgb(236, 8, 8);
+    }
+
+
+    #con {
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    button {
+        height: 50px;
+        width: 130px;
+        font-size: 20px;
+        color: aliceblue;
+        box-shadow: 5px 5px 10px burlywood;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-top: -5px;
+        text-shadow: 0px 0px 10px burlywood;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: 5px 5px 10px rgb(176, 112, 28);
+        transform: scale(1.05);
+        transition: 1s ease;
+    }
+
+    #icon {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    i {
+        margin-right: 10px;
+        margin-left: 2rem;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px rgb(205, 236, 8);
+        cursor: pointer;
+    }
+
+    i:hover {
+        text-shadow: 0px 5px 10px brown;
+        transform: scale(1.05);
+        transition: 1s ease;
+    }
+</style>
+
+<body>
+    <div>
+        <div id="img">
+            <img src="./img.png" alt="">
+            <p>Graphic design is the art of composing visual elements such as typography, images, colors, and shapes to
+                communicate information or convey a message effectively. Designing the layout of a magazine, creating a
+                poster for a theatre performance, and designing packaging for a product are all examples of graphic
+                design.
+
+                In fact, almost everyone today practices some form of graphic design in their daily life whether it’s
+                adding text to an image for social media or color-coding a spreadsheet for work. Basically, if you’re
+                creating visual content, you’re practicing some form of graphic design.</p>
+        </div>
+        <div id="con">
+            <button>contact us</button>
+        </div>
+        <div id="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+        </div>
+    </div>
+</body>
+
+</html>
