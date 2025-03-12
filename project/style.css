@@ -11,6 +11,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #0c1813;
+    z-index: 1000;
 }
 
 header img {
@@ -20,6 +21,7 @@ header img {
 header a {
     margin-right: 2rem;
     color: #d0ad6c;
+    text-decoration: none;
 }
 
 nav {
@@ -84,16 +86,33 @@ header nav {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} 
 .dropdown:hover .arrow {
     opacity: 0;
     transition: 0.3s ease;
     transform: scale(1.1);
 }
 
- .image img{
-    margin-top: 8.6rem;
-    height: 30rem;
-    width: 79.05rem;
+.container img{
+    margin-top: 8.4rem;
 }
+
+#carousel{
+    margin-left: -3px;
+    width: 80.05rem;
+    right:5rem;
+}
+
+#carousel span{
+    margin-top: 8.9rem;
+}
+
+.carousel-control-prev span{
+    margin-right: 5rem;
+}
+
+.carousel-control-next span{
+    margin-left: 5rem;
+}
+
 
