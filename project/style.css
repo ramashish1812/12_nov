@@ -6,7 +6,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.scroll{
+    text-align: center;
+    background-color: #1f1f1f;
+    color:  #d0ad6c;
+}
 
+.carousel-item p{
+    margin-top: 0.8rem;
+}
 header {
     position: fixed;
     width: 100%;
@@ -16,12 +24,18 @@ header {
 
 header img {
     margin-left: 35%;
+    margin-top: -1rem;
 }
 
 header a {
     margin-right: 2rem;
     color: #d0ad6c;
     text-decoration: none;
+}
+
+header p{
+     font-family: Lato; 
+     font-weight: 100;
 }
 
 nav {
@@ -99,7 +113,7 @@ header nav {
 
 #carousel{
     margin-left: -3px;
-    width: 80.05rem;
+    width: 79.6rem;
     right:5rem;
 }
 
@@ -113,6 +127,54 @@ header nav {
 
 .carousel-control-next span{
     margin-left: 5rem;
+}
+
+.sub h2{
+    margin-top: 2rem; 
+    text-align: center;
+    text-shadow: 0px 0px 10px gray;
+   font-family: "Poppins", sans-serif;
+}  
+
+.page-content {
+    margin-top: -5rem;
+    height: 600px;
+    margin-left: 0rem;
+    margin-right: -0.02rem;
+    background: #f9f6e6;
+    border: 2px solid#f9f6e6;/  
+}
+ .sub-cards{
+    height: 300px;
+    width: 250px; 
+    border: 2px solid #f9f6e612;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.cards-img{
+    display: flex;
+    margin: 7rem 5rem 0rem 4rem;
+    justify-content: space-between; 
+    text-align: center;
+}
+.cards-img img{
+    height: 250px;
+     width: 246px; 
+     border-radius: 8px;
+
+}
+
+.p1:hover{
+    content: url('./images/pp1.png');
+}
+
+.p2:hover{
+    content: url('./images/pp2.png');
+}
+
+.p3:hover{
+    content: url('./images/pp3.png');
 }
 
 
