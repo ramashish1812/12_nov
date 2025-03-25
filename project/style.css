@@ -316,9 +316,13 @@ header nav {
     color: #ffffff;
 }
 
-.social i {
+.soc{
     height: 30px;
-    width: 5px;
+    display: flex;
+}
+
+.social i {
+    
     margin-top: 1rem;
     margin-left: 2rem;
     color: #ffffff;
