@@ -323,7 +323,6 @@ header nav {
 .sub-foot input:hover {
     color: #ffffff;
 }
-
 .soc {
     height: 30px;
     display: flex;
@@ -410,11 +409,9 @@ summary::after {
     margin-left: 7.4rem;
 }
 details[open] summary::after {
-    content: "˄"; 
+    content: "˄";
 }
-details[open] summary {
-    background-color: #e0e0e0;
-}
+
 .option {
     position: absolute;
     width: 100%;
@@ -426,8 +423,8 @@ details[open] summary {
     padding: 10px;
     cursor: pointer;
 }
-.option div:hover {
-    background: #ddd;
+.option div:hover{
+    background-color: #ccc;
 }
 
 .line {
@@ -583,4 +580,39 @@ details[open] summary {
 }
 .h6:hover{
     content: url('./images/ho6.webp');
+}
+
+.media{
+    margin-top: 15rem;
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.med img{
+    height: 250px;
+    width: 350px;
+}
+
+.med a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.privacy{
+    position: relative;
+    top: 10%;
+    height: 150rem;
+    width: 70rem;
+
+}
+.para1{
+    position: relative;
+    text-align: justify;
+    top: 9%;
+    height:100rem;
+    width: 60rem;
+    left: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 }
